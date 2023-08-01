@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+   <title>Calculadora</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="./index.js" defer></script>
+</head>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+    <form name="nkt" method="post" action=""> -->
+<!--      
+     
+    <H1 id="tittle">Calculadora</H1>
+
+    <label for="valor1" id="one">Digite o valor 1 </label>
+    <input type="text" name="valor1" id="valor1" />
+
+    <label for="valor2" id="two">Digite o valor 2 </label>
+    <input type="text" name="valor2" id="valor2" />
+
+    <label for="oper">Selecione a operação:</label>
+    <select name="oper" id="oper">
+        <option value="somar">Somar</option>
+        <option value="subtrair">Subtrair</option>
+        <option value="multiplicar">Multiplifcar</option>
+        <option value="dividir">Dividir</option>
+    </select>
+
+    <label for="correto">Resultado:</label>
+    <input type="text" name="correto" id="correto" />
+
+    <input type="button" value="Calcular" class="botao" onClick="calcular(document.nkt.oper.value)" />
+    <div>
+
+ -->
+
+ <body>
+    <main data-theme="dark">
+    <header class="flex align-center justify-between">
+          <h1>CALCULADORA</h1>
+          <button id="themeSwitcher">Switch Theme Dark/Light</button>
+       </header>
+       <input type="text" id="input">
+       <div id="keys">
+          <button id="clear">C</button>
+          <button class="charKey" data-value=" ( ">(</button>
+          <button class="charKey" data-value=" ) ">)</button>
+          <button class="charKey" data-value=" / ">/</button>
+          <button class="charKey" data-value="7">7</button>
+          <button class="charKey" data-value="8">8</button>
+          <button class="charKey" data-value="9">9</button>
+          <button class="charKey" data-value=" * ">*</button>
+          <button class="charKey" data-value="4">4</button>
+          <button class="charKey" data-value="5">5</button>
+          <button class="charKey" data-value="6">6</button>
+          <button class="charKey" data-value=" - ">-</button>
+          <button class="charKey" data-value="1">1</button>
+          <button class="charKey" data-value="2">2</button>
+          <button class="charKey" data-value="3">3</button>
+          <button class="charKey" data-value=" + ">+</button>
+          <button class="charKey" data-value="0">0</button>
+          <button class="charKey" data-value=".">.</button>
+          <button class="charKey" data-value=" % ">mod</button>
+          <button id="igual"> = </button>
+       </div>
+       <section class="flex align-center justify-between">
+          <button id="campoResult">Result</button>
+          <input type="text" id="result" disabled>
+       </section>
+    </main>
+ </body>
+
+ </html>
